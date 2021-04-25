@@ -61,19 +61,20 @@ p {
 }
 
 #plant {
-  
   padding-left: 15%;
 }
 
 #location {
   color: black;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 #submitBtn {
   text-align: center;
   position: relative;
   left: 900px;
+  padding-top: 10px;
+  background-color: #375755;
 }
 
 #city {

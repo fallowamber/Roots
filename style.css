@@ -1,0 +1,300 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color: #E4E5E2;
+}
+
+#pTag2 {
+  color: black;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+  margin: 2em;
+  flex-wrap: wrap;
+  padding-right: 130px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: 'Merriweather', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#pTag {
+  color: white;
+  margin-inline-start: 100px;
+  margin-inline-end: 100px;
+}
+
+#buttonNext {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 1.5));
+  padding: 30px;
+  background-color: #375755;
+  border-radius: 10px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding-right: 20%;
+  padding-left: 20%;
+  font-size: 24px;
+}
+
+#buttonNext:hover {
+  background-color: black;
+}
+
+#plant {
+  
+  padding-left: 15%;
+}
+
+#location {
+  color: black;
+  padding: 20px;
+}
+
+#submitBtn {
+  text-align: center;
+  position: relative;
+  left: 900px;
+}
+
+#city {
+  text-align: center;
+  position: relative;
+  left: 850px;
+}
+
+#contact {
+  background-color: #375755;
+  min-height: 400px;
+  padding: 20px 0px;
+  width: 100%;
+
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact h2 {
+	color: black;
+	text-transform: uppercase;
+}
+
+#contact form {
+	max-width: 640px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact input {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+}
+
+#contact textarea {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+	height: 150px;
+	resize: none;
+}
+
+#contact button {
+	width: 50%;
+	background-color: white;
+	color: rgb(13, 189, 46);
+	
+	padding: 8px 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+#contact button:hover {
+	background-color: black;
+	color: #f2f2f2;
+}
+
+#icon1 {
+  height: 40px;
+  width: 70px;
+  position: relative;
+  left: 620px;
+}
+
+#icon2 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 630px;
+}
+
+#icon3 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 640px;
+}
+
+#icon4 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 650px;
+}
+
+.pFooter {
+  color: white;
+  text-align: center;
+}
+
+#title {
+  color: black;
+  font-size: 48px;
+}
+
+a {
+  text-decoration: none!important;
+  font-family: "Merriweather";
+  color: white;
+}
+
+#Water {
+  bottom: 170px;
+  left: 70%;
+  height: 400px;
+  padding-right: 160px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.header li {
+  float: left;
+  margin-right: 8%; 
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  vertical-align: middle;
+  display: flex;
+}
+
+.header li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-bottom: 2%;
+  display: inline-block;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 14px;
+}
+
+.column::hover{
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.tomato {
+  margin-inline-start: 40px;
+  height: 550px;
+  background-color: #FF5252;
+}
+
+.carrot {
+  margin-inline-start: 40px;
+  height: 550px;
+  background-color: #FFB156 ;
+}
+
+.spinach {
+  margin-inline-start: 20px;
+  height: 550px;
+  background-color: #27CF56;
+}
+
+.SpinachImage {
+  position: relative; 
+  top: 50px;
+  left: 100px;
+}
+
+.CarrotImage {
+  position: relative;
+  top: 50px;
+  left: 100;
+}
+
+.TomatoImage {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+.moto {
+  text-align: left; 
+  font-size: 72px; 
+  color: black; 
+  font-weight: bold;
+}
+
+.img1 {
+  height: 300px;
+  width: 400px;
+}
+
+ul.ba {
+    list-style-type: none;
+}
+
+.logoImg {
+  height: 100px;
+  width: 120px;
+}
+
+.headings {
+  float: right;
+  padding-top: 25px;
+  margin-left: 20px;
+}
+
+

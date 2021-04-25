@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Roots</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<style>
+		.collapsible {
+			background-color: #777;
+			color: white;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+		}
+
+		.active,
+		.collapsible:hover {
+			background-color: #555;
+		}
+
+		.collapsible:after {
+			content: '\002B';
+			color: white;
+			font-weight: bold;
+			float: right;
+			margin-left: 5px;
+		}
+
+		.active:after {
+			content: "\2212";
+		}
+
+		.content {
+			padding: 0 18px;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.2s ease-out;
+			background-color: #f1f1f1;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<ul>
+			<li><img src="Images/logo.png" class = "logoImg"/></li>
+      <li class = "headings"><a href="index.html">Home</a></li>
+      <li class = "headings" ><a href="#getstarted">Get Started</a></li>
+      <li class = "headings" ><a href="#aboutus">About Us</a></li>
+      <li class = "headings" ><a href="#contact">Contact</a></li>
+      <li class = "headings" ><a href="#">Sign In</a></li>
+    </ul>
+  </div>
+  <div> 
+  <div>
+    <button type="button" class="collapsible"> What does it look like? </button>
+    <div class="content">
+      <p></p>
+    </div>
+
+    <button type="button" class="collapsible"> How do I plant it? </button>
+    <div class="content">
+      <p></p>
+    </div>
+
+    <button type="button" class="collapsible"> When should I harvest? </button>
+    <div class="content">
+     <p></p>
+    </div>
+  </div>
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+  </script>
+</body>
+</html>

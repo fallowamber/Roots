@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<style>
 		.collapsible {
-			background-color: #FF5252;
+			background-color: #ed9121;
 			color: white;
 			cursor: pointer;
 			padding: 18px;
@@ -23,12 +23,13 @@
 			text-align: left;
 			outline: none;
 			font-size: 15px;
-      margin-left: 0px;
+			margin-left: 0px;
+			font-family: 'Merriweather', sans-serif;
 		}
 
 		.active,
 		.collapsible:hover {
-			background-color: red;
+			background-color: orange;
 		}
 
 		.collapsible:after {
@@ -37,6 +38,7 @@
 			font-weight: bold;
 			float: right;
 			margin-left: 5px;
+			font-family: 'Merriweather', sans-serif;
 		}
 
 		.active:after {
@@ -67,15 +69,15 @@
   <div> 
     <button type="button" class="collapsible"> What does it look like? </button>
     <div class="content">
-      <p> The seeds look like this: </p>
+      <p class = "info"> The seeds look like this: </p>
       <img src="Images/Carrot_Seeds.jpg" alt="Carrot Seeds Image" class = "img1">
-      <p> Stages of Carrot growing: </p>
+      <p class = "info"> Stages of Carrot growing: </p>
       <img src="Images/Life Cycle of a Carrot.jpg" alt="Life Cycle of a Carrot Image" class = "stages">
     </div>
 
     <button type="button" class="collapsible"> How do I plant it? </button>
     <div class="content">
-      <p>Steps to plant carrot seeds and grow carrots:</p>
+      <p class = "info">Steps to plant carrot seeds and grow carrots:</p>
       <ul class = "ba"> 
         <li> Step 1: Prepare the planting bed. </li>
         <li> Step 2: Sowing seeds.</li>
@@ -83,25 +85,22 @@
         <li> Step 4: Keep growing carrots moist and weed free.</li>
         <li> Step 5: Thin the seedlings and eat</li>
       </ul>
-      <p> Carrots stored in cold moist conditions can stay up between 4–6 months. </p>
-      <p> </p>
-      <p> Ideal pH: 6.0-6.8. The softer and more humus-based the soil, the better. When soil is dry enough in spring, work it to a fine texture. Broadcast and dig in ½ cup complete organic fertilizer for every 3m (10′) of row. Avoid fresh manure. Carrots will become misshapen, but still edible if they hit anything hard as they grow down into the soil. Keep weeded and watered. </p>
+      <p class = "info"> Carrots stored in cold moist conditions can stay up between 4–6 months. </p>
+      <p class = "info"> Ideal pH: 6.0-6.8. The softer and more humus-based the soil, the better. When soil is dry enough in spring, work it to a fine texture. Broadcast and dig in ½ cup complete organic fertilizer for every 3m (10′) of row. Avoid fresh manure. Carrots will become misshapen, but still edible if they hit anything hard as they grow down into the soil. Keep weeded and watered. </p>
     </div>
 
     <button type="button" class="collapsible"> When should I harvest? </button>
     <div class="content">
-     <p>Carrots can be harvested at any size, but flavour is best when the carrot has turned bright orange - or its other mature colour. After harvest, store at cold temperatures just above 0ºC. Store in sand or sawdust, or simply leave carrots under heaped soil in the garden during the winter, and pull as needed.</p>
-     <p> Carrots should be ready for harvest about 60-80 days after sowing seeds, depending on the variety. The tops of the carrot roots will be about 3/4 to 1 inch in diameter and likely starting to pop out of the soil, though not necessarily.  </p>
+     <p class = "info">Carrots can be harvested at any size, but flavour is best when the carrot has turned bright orange - or its other mature colour. After harvest, store at cold temperatures just above 0ºC. Store in sand or sawdust, or simply leave carrots under heaped soil in the garden during the winter, and pull as needed.</p>
+     <p class = "info"> Carrots should be ready for harvest about 60-80 days after sowing seeds, depending on the variety. The tops of the carrot roots will be about 3/4 to 1 inch in diameter and likely starting to pop out of the soil, though not necessarily.  </p>
     </div>
     </br>
     </br>
     <div id = "calender"> 
-      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Africa%2FLagos&amp;src=YnJhMDNpcTcwbWw1ODhmOWs4dGZwcW44czBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F09300&amp;title=The%20Official%20Roots%20Calendar&amp;showNav=1&amp;showDate=1&amp;hl=en_GB&amp;mode=MONTH&amp;showTz=1" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      <center>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Africa%2FLagos&amp;src=YnJhMDNpcTcwbWw1ODhmOWs4dGZwcW44czBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F09300&amp;title=The%20Official%20Roots%20Calendar&amp;showNav=1&amp;showDate=1&amp;hl=en_GB&amp;mode=MONTH&amp;showTz=1" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </center>
     </div>
-
-
-
-
   </div>
   <script>
     var coll = document.getElementsByClassName("collapsible");

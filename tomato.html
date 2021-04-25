@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<style>
 		.collapsible {
-			background-color: #777;
+			background-color: #FF5252;
 			color: white;
 			cursor: pointer;
 			padding: 18px;
@@ -23,11 +23,13 @@
 			text-align: left;
 			outline: none;
 			font-size: 15px;
+			margin-left: 0px;
+			font-family: 'Merriweather', sans-serif;
 		}
 
 		.active,
 		.collapsible:hover {
-			background-color: #555;
+			background-color: red;
 		}
 
 		.collapsible:after {
@@ -36,6 +38,7 @@
 			font-weight: bold;
 			float: right;
 			margin-left: 5px;
+			font-family: 'Merriweather', sans-serif;
 		}
 
 		.active:after {
@@ -67,17 +70,48 @@
   <div>
     <button type="button" class="collapsible"> What does it look like? </button>
     <div class="content">
-      <p></p>
+      <p class = "info">The Seeds look like this:</p>
+      <img src="Images/Tomato_Seeds.jpg" alt="Tomato Seeds Image" id = "tomatoSeeds">
+      <p class = "info">Stages of Tomato Growing:</p>
+      <img src="Images/Stages of tomato plant.jfif" alt="Image of the states of a Tomato plant" class = "tomatoStages">
     </div>
 
     <button type="button" class="collapsible"> How do I plant it? </button>
     <div class="content">
-      <p></p>
+      <p class = "info"> Steps to plant tomato seeds and grow tomatoes.</p>
+      <ul class = "ba">
+        <li>
+          Step 1: Thoroughly moisten the seed-starting mix, and then fill the containers to within 1/2" of the top. Firm the mix but don't compact it.
+        </li>
+        <li>
+          Step 2: Place two or three seeds into each small container or each cell of a seed starter. Cover the seed with about 1/4" of soil and gently firm it over the seeds.
+        </li>
+        <li>
+          Step 3: Water to ensure good seed-to-mix contact. You can use a plant mister or just dribble a stream of water over the top. You don't need to soak the soil, just moisten the top layer.
+        </li>
+        <li>
+          Step 4: Place the pots in a warm spot or on top of a heat mat. At this point, the seeds don't need light.
+        </li>
+        <li>
+          Step 5: Keep the mix moist but not soaking wet. If your seed-starting system has a greenhouse top, use it to help hold moisture. Or, you can lay some plastic kitchen wrap over the tops of the pots.
+        </li>
+        <li>
+          Step 6: Check pots daily. As soon as you see sprouts, remove the covering and place the pots in a sunny window or under grow lights, keeping the lights just an inch or two above the tops of the plants.
+        </li>
+      </ul>
     </div>
 
     <button type="button" class="collapsible"> When should I harvest? </button>
     <div class="content">
-     <p></p>
+      <p class = "info">Tomatoes are typically ready to harvest 60-85 days after planting seedlings outdoors. However, timing can change depending on your climate and the variety of tomatoes you're growing. If you're planting determinate tomatoes, be ready for a large harvest all at once.</p>
+     <p class = "info">Tomato plants are generally much branched, spreading 60–180 cm (24–72 inches) and somewhat trailing when fruiting, but a few forms are compact and upright.</p>
+    </div>
+    </br> 
+    </br>
+    <div id = "calender"> 
+      <center>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Africa%2FLagos&amp;src=YnJhMDNpcTcwbWw1ODhmOWs4dGZwcW44czBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F09300&amp;title=The%20Official%20Roots%20Calendar&amp;showNav=1&amp;showDate=1&amp;hl=en_GB&amp;mode=MONTH&amp;showTz=1" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </center>
     </div>
   </div>
   <script>

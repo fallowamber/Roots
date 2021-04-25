@@ -22,6 +22,17 @@ h1 {
   font-size: 36px;
 }
 
+#pTag3 {
+  margin-inline-start: 100px;
+  margin-inline-end: 100px;
+  color: black;
+}
+
+#addInfo {
+  color: black;
+  font-size: 2em;
+}
+
 h2 {
   text-align: center;
   font-family: 'Merriweather', sans-serif;
@@ -258,19 +269,16 @@ a {
 .SpinachImage {
   position: relative; 
   top: 50px;
-  left: 100px;
 }
 
-.CarrotImage {
+.carrotImage {
   position: relative;
-  top: 50px;
-  left: 100;
+  top: 40px;
 }
 
 .TomatoImage {
   position: relative;
   top: 50px;
-  left: 100px;
 }
 
 .moto {

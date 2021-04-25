@@ -72,9 +72,11 @@ p {
 #submitBtn {
   text-align: center;
   position: relative;
-  left: 900px;
-  padding-top: 10px;
+  left: 880px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: #375755;
+  color: white;
 }
 
 #city {
